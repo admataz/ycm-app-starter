@@ -1,0 +1,17 @@
+{
+  "name": "ycmSign2wordFramework",
+  "displayName": "ycmSign2wordFramework",
+  "expo": {
+    "name": "ycmSign2wordFramework",
+    "slug": "ycmSign2wordFramework",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
