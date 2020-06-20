@@ -1,29 +1,37 @@
 import * as React from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
+import ScreenHeader from "../../components/ScreenHeader";
 
 export default function About() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.welcome}>About Page</Text>
+    <View>
+      <View>
+        <ScreenHeader 
+          title = "About Us"
+          subtitle = "" 
+          height = {150} />
+      </View>
+      <View>
+        <Text style = {styles.heading} >
+          Heading in here
+        </Text>
+        <Text style = {styles.paragraph}>
+          Paragraph in here
+        </Text>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF",
-  },
-  welcome: {
+  heading: {
     fontSize: 20,
     textAlign: "center",
     margin: 10,
   },
-  instructions: {
+  paragraph: {
+    fontSize: 15,
     textAlign: "center",
-    color: "#333333",
-    marginBottom: 5,
+    margin: 10,
   },
 });
