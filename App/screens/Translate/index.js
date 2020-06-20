@@ -1,10 +1,12 @@
 import * as React from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
+import TFCamera from '../../components/TFCamera'
 
 export default function Translate() {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Translate Page</Text>
+      <TFCamera />
     </View>
   );
 }
