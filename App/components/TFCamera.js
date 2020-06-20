@@ -80,7 +80,7 @@ class TFCamera extends React.Component {
           <TensorCamera
             // Standard Camera props
             style={styles.camera}
-            type={Camera.Constants.Type.back}
+            type={Camera.Constants.Type.front}
             // Tensor related props
             cameraTextureHeight={textureDims.height}
             cameraTextureWidth={textureDims.width}
